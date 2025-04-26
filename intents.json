@@ -1,0 +1,155 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you with your shopping today?",
+        "Hi there! What can I help you find?",
+        "Welcome! How may I assist you with your shopping?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "See you soon",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Happy shopping!",
+        "See you later! Come back soon!",
+        "Take care! Have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thank you so much",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "My pleasure!",
+        "Glad I could help!"
+      ]
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "What products do you have?",
+        "What can I buy?",
+        "Show me products",
+        "What's available?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We have a wide range of products including electronics, clothing, home appliances, and sports equipment. What category interests you?",
+        "Our store offers electronics, fashion, home goods, and sports items. Which category would you like to explore?",
+        "You can browse through our electronics, clothing, home appliances, and sports sections. What would you like to see?"
+      ]
+    },
+    {
+      "tag": "electronics",
+      "patterns": [
+        "Show me electronics",
+        "What electronics do you have?",
+        "I want to see electronics",
+        "Electronics section",
+        "Tech products"
+      ],
+      "responses": [
+        "Our electronics section includes smartphones, laptops, tablets, and accessories. What specific item are you looking for?",
+        "We have the latest electronics including phones, computers, and gadgets. What interests you?",
+        "You can find smartphones, laptops, and other tech gadgets in our electronics section. What would you like to see?"
+      ]
+    },
+    {
+      "tag": "clothing",
+      "patterns": [
+        "Show me clothing",
+        "What clothes do you have?",
+        "I want to see clothes",
+        "Fashion section",
+        "Apparel"
+      ],
+      "responses": [
+        "Our clothing section includes men's, women's, and children's fashion. What type of clothing are you looking for?",
+        "We have a wide range of clothing for all ages and styles. What would you like to see?",
+        "You can browse through our men's, women's, and kids' clothing sections. What interests you?"
+      ]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "What's the price?",
+        "How much does it cost?",
+        "What's the cost?",
+        "Price range",
+        "How much?"
+      ],
+      "responses": [
+        "Our prices range from $10 to $2000 depending on the product. What's your budget?",
+        "We have items ranging from affordable to premium prices. What's your price range?",
+        "Prices vary by product category. What's your budget range?"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "What are the delivery options?",
+        "How do you deliver?",
+        "Shipping information",
+        "Delivery time",
+        "When will it arrive?"
+      ],
+      "responses": [
+        "We offer standard (3-5 days) and express (1-2 days) delivery options. Which would you prefer?",
+        "You can choose between standard or express delivery. Standard takes 3-5 days, express takes 1-2 days.",
+        "We provide both standard and express shipping. Standard delivery is 3-5 days, express is 1-2 days."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "What payment methods do you accept?",
+        "How can I pay?",
+        "Payment options",
+        "Do you accept credit cards?",
+        "Payment methods"
+      ],
+      "responses": [
+        "We accept all major credit cards, PayPal, and bank transfers. Which payment method would you like to use?",
+        "You can pay using credit cards, PayPal, or bank transfer. What's your preferred payment method?",
+        "We accept various payment methods including credit cards, PayPal, and bank transfers. How would you like to pay?"
+      ]
+    },
+    {
+      "tag": "discount",
+      "patterns": [
+        "Do you have any discounts?",
+        "Are there any offers?",
+        "Special deals",
+        "Promotions",
+        "Sales"
+      ],
+      "responses": [
+        "We currently have special offers on electronics and clothing. Would you like to see our deals?",
+        "Yes, we have ongoing promotions in different categories. Which category interests you?",
+        "We have various discounts and promotions available. What category would you like to check?"
+      ]
+    }
+  ]
+}
